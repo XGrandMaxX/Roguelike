@@ -1,0 +1,81 @@
+# === Основные временные файлы Unity ===
+# Эти папки генерируются Unity и не должны попадать в репозиторий
+/[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# === Сборка и выходные файлы ===
+# Все, что связано с билдами проекта
+/[Bb]uild/
+[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# === Кэш и отладочная информация ===
+# Большие файлы захвата памяти и логов
+/[Mm]emoryCaptures/
+[Rr]ecordings/
+sysinfo.txt  # Файл crash report
+
+# === Файлы IDE и редакторов ===
+# Visual Studio / Rider / другие IDE
+.vs/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# === Генерируемые Unity мета-файлы ===
+# Мета-файлы для отладочных данных
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# === Addressables и Streaming Assets ===
+# Временные файлы для Addressables и Android
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# === Плагины и их временные файлы ===
+# Раскомментируйте, если нужно игнорировать Asset Store Tools
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider плагин
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Zenject плагин
+/[Aa]ssets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta
+/[Aa]ssets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta
+/[Aa]ssets/Plugins/Zenject/Source/Zenject.csproj.meta
+
+# === Кастомные правила для проекта ===
+# Добавляйте сюда свои исключения, например, для URP/HDRP или других пакетов
+*.unitypackage.meta  # Игнорируем мета-файлы любых unitypackage (URP, HDRP и т.д.)
+
+# === Локальные настройки Unity ===
+# Файлы настроек, которые могут меняться локально
+/[Pp]rojectSettings/EditorBuildSettings.asset
+/[Pp]rojectSettings/*.asset  # Все настройки проекта (можно уточнить, если нужно)
+
+# === Дополнительные правила ===
+# Добавляйте сюда любые другие файлы/папки, специфичные для вашего проекта
+# Например:
+# /CustomFolder/
+# *.customextension
